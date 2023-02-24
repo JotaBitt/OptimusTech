@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --fonte-principal: 'Inter', 'sans serif';
+    --branco: #FFF;
+    --cor-texto: #667085;
+    --cor-titulo: #101828;
+    --cor-secundaria: #8E2424;
+    --cor-titulo2: #3A404E;
+    --cor-texto2: #98A2B3;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--branco);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-titulo);
+}
+
+/* Estilizando o Header /Cabeçalho */
+
+.navBar {
+    display: flex;
+    align-items: center;
+    padding: 2em 5em;
+}
+
+.texto-principal {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0.5em;
+    color: var(--cor-titulo2);
+}
+
+.lista-cabecalho {
+    display: flex;
+    list-style-type: none;
+    margin-left: 10em;
+}
+
+.lista-item {
+    padding-left: 1.5em;
+}
+
+.item-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--cor-texto);
+}
+
+.cabecalho-botoes {
+    display: flex;
+    margin: 0 2em 0 auto;
+}
+
+.lista-botoes {
+    display: flex;
+    list-style-type: none;
+}
+
+.botao-item {
+    margin-left: .5em;
+}
+
+.botao-ancora {
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+.background {
+    padding: 1em;
+    background-color: var(--cor-secundaria);
+    color: var(--branco);
+    border-radius: 8px;
+}
+
+.banner {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.container-banner {
+    padding: 2em 21em;
+}
+
+.subtitulo-banner {
+    color: var(--cor-secundaria);
+    font-weight: 600;
+}
+
+.titulo-banner {
+    color: var(--cor-titulo);
+    font-size: 48px;
+    font-weight: 600;
+    padding: 1em 0;
+}
+
+.texto-banner {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-texto);
+}
+
+.metricas {
+    padding-bottom: 4em;
+}
+
+.lista-metricas {
+    display: flex;
+    list-style-type: none;
+}
+
+.metricas-item {
+    padding: 0 5em;
+}
+
+.titulo-metricas {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+}
+
+.subtitulo-metricas {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0.5em 0;
+}
+
+.texto-metricas {
+    color: var(--cor-texto);
+}
+
+.vagas {
+    padding: 0 9em;
+}
+
+.header-vagas {
+    padding: 5em 0 2em 0;
+    text-align: center;
+}
+
+.subtitulo-vagas {
+    color: var(--cor-secundaria);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.titulo-vagas {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-titulo);
+    padding: .5em 0;
+}
+
+.texto-vagas {
+    color: var(--cor-texto);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 3em;
+}
+
+.vagas img {
+    padding-bottom: 3em;
+}
+
+.vagas-abertas {
+    padding: 0 0 5em 10em;
+}
+
+.titulo-topico {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--cor-titulo);
+    padding-bottom: 2em;
+}
+
+.informacoes-vaga {
+    padding-left: 2em;
+}
+
+.titulo-aberto {
+    padding-bottom: 1em;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.texto-aberto {
+    display: inline-block;
+    padding-bottom: 4em;
+    color: var(--cor-texto);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.espaco {
+    padding-left: 1.5em;
+}
+
+.depoimentos {
+    padding-bottom: 5em;
+}
+
+.container-depoimentos {
+    padding: 3em 10em;
+    text-align: center;
+}
+
+.titulo-depoimentos {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cor-titulo);
+    padding: 1em 0;
+}
+
+.nome-usuario {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor-titulo);
+    padding: 1em 0;
+}
+
+.texto-usuario {
+    color: var(--cor-texto);
+    font-size: 14px;
+}
+
+.rodape {
+    padding: 5em 0;
+}
+
+.contato {
+    text-align: center;
+}
+
+.titulo-contato {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-titulo);
+}
+
+.texto-contato {
+    color: var(--cor-texto);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1em 0 2em 0;
+}
+
+.contato-email {
+    width: 20em;
+    padding: .8em 2em .8em 1em;
+    border: 1px solid var(--cor-texto);
+    border-radius: 5px;
+}
+
+.botao-email {
+    background-color: var(--cor-secundaria);
+    color: var(--branco);
+    padding: 1em;
+    margin: 0 0 3em .5em;
+    border: none;
+    border-radius: 8px;
+}
+
+.texto-autorais {
+    color: var(--cor-texto2);
+}
